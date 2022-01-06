@@ -2,40 +2,91 @@
 <html>
 
 <head>
-    <title>GCR</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <meta charset=" utf-8 ">
+	<title>GCR</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<meta charset=" utf-8 ">
 </head>
 
 <body>
-    <div class="jumbotron text-center">
-        <h1>QUE PEUT ON Y FAIRE?</h1>
-    </div>
-
-    <div class="onglet">
-        <a href="/INDEX.html">▪️ Acceuil       </a>
-        <a href="/html/Hist.html">▪️ Son Histoire       </a>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3>Ecrire</h3>
-                <p>Vous pouvez envoyez des messages, des photos, des videos ou des liens.</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Discuter</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>Jouer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
-        </div>
-    </div>
-
+	<header>
+		<nav class="container">
+			<div class="logo">
+				<a href="https://discord.gg/GwuQgRq4kX">
+					<img id="main-logo" alt="Logo" src="/medias/img/main-logo.png">
+					</img>
+				</a>
+			</div>
+			<ul class="menu">
+				<li><a href="/INDEX.html">Menu</a></li>
+				<li><a href="/html/qf.html" class="actif">Que faire?</a></li>
+				<li><a href="/html/hist.html">Son histoire</a></li>
+			</ul>
+		</nav>
+		<div id="top" class="content">
+			<h1 class="title">Que peut on y faire?</h1>
+			<br />
+			<p class="lead">Ce serveur discord fût réalisé le 17 mars 2021, c'est Gerard Raphael qui la fondé pour que
+				lui et ces amis puissent travailler, jouer et discuter, alors qu'ils sont hors des cours. </p>
+			<h3>Voici toutes les photos de profiles qu'il a connu.&nbsp;</h3>
+			<br />
+		</div>
+	</header>
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="0"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="/medias/img/GCR1.png" alt="GCR1" style="width:100%;">
+					<div class="carousel-caption">
+						<h3 class="carousel-bg">La toute première photo de profil</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="/medias/img/GCH.png" alt="" style="width:100%;">
+					<div class="carousel-caption">
+						<h3 class="carousel-bg">Puis une édition d'Haloween</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="/medias/img/gcN.PNG"" alt=" GCN" style="width:100%;">
+					<div class="carousel-caption">
+						<h3 class="carousel-bg">Et une édition pour Noël</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="/medias/img/main-logo.png"" alt=" GC2" style="width:100%;">
+					<div class="carousel-caption">
+						<h3 class="carousel-bg">Edition actuelle</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="/medias/img/gcspace.PNG"" alt=" GCS" style="width:100%;">
+					<div class="carousel-caption">
+						<h3 class="carousel-bg">Et celui pour l'espace</h3>
+					</div>
+				</div>
+			</div>
+			<!-- Contrôles flèche droite / gauche -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
 </body>
+
+</html>
