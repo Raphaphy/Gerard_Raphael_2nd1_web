@@ -1,19 +1,68 @@
-﻿.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#main-logo {
+	width: 7vw;
+}
+#haut {
+	text-align: center;
+}
+
+html {
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	margin: 0;
+}
+nav {
+	list-style-type: none;
+	background: #080808;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+li {
+	float: right;
+	list-style-type: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.actif {
+	background-color: #4caf50;
+}
+
+.conteneur {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-template-areas: "logo . menu";
+	height: 16vh;
+	width: auto;
+	align-items: center;
+}
+.logo {
+	grid-area: logo;
+	padding: 1vh;
+}
+.menu {
+	grid-area: menu;
 }
 
 /* html {
