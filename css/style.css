@@ -1,9 +1,14 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+@font-face {
+	font-family: bebas;
+	src: url(../medias/Bebas\ Neue\ Bold.otf);
+}
+
 #main-logo {
 	width: 7vw;
 }
-#haut {
+#top {
 	text-align: center;
 }
 
@@ -47,7 +52,7 @@ li a:hover {
 	background-color: #4caf50;
 }
 
-.conteneur {
+.container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
@@ -63,6 +68,29 @@ li a:hover {
 }
 .menu {
 	grid-area: menu;
+}
+
+h1 {
+	text-align: center;
+	font-family: "bebas";
+	font-size: 65px;
+	margin: 0;
+	padding-top: 30px;
+	text-shadow: 2px 2px 0 #00135a;
+	margin-bottom: 30px;
+	list-style: lower-alpha;
+}
+
+.title:before,
+.title::after {
+	content: "";
+	flex: 1 1;
+	border-bottom: 2px solid #708dff;
+	margin: auto;
+	display: block;
+	width: 80px;
+	fill: black;
+	margin: -4px auto 0 auto;
 }
 
 /* html {
