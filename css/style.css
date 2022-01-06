@@ -60,7 +60,7 @@ nav {
 	-moz-box-shadow: 1px 6px 10px 6px rgba(0, 0, 0, 0.75);
 }
 
-li {
+.menu>li {
 	float: right;
 	list-style-type: none;
 	padding: 14px;
@@ -151,4 +151,8 @@ h1 {
 
 .new-section {
 	padding-top: 20vw;
+}
+
+td {
+	text-align: initial;
 }
