@@ -1,0 +1,100 @@
+﻿#main-logo {}
+
+
+/* html {
+    background: #A4A4A4;
+    background: -moz-linear-gradient(top, #ffffff 0%, #FF0000 50%, #160000 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #FF0000 50%, #160000 100%);
+    background: linear-gradient(top bottom, #ffffff 0%, #FF0000 50%, #160000 100%);
+}
+
+body {
+    width: 52%;
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+    padding: 0 25px 20px 20px;
+    border: 6px solid black;
+    border-radius: 2rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center
+}
+
+h3 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    font-size: 30px;
+    text-align: center
+}
+
+p {
+    color: white;
+    font-size: 17px
+}
+
+a {
+    color: White;
+    font-size: 20px
+}
+.myButton {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(138, 2, 2) 0%, rgb(255, 17, 0) 50%, rgb(255, 124, 124) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(255, 255, 255);
+    display: inline-block;}
+.myButton:hover {
+    background: #1C6EA4; }
+.myButton:active {
+    background: #144E75; 
+}
+.onglet {
+    background-color: #ff0000;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 100% 100%;
+    border: 2px solid white}
+.onglet {color: rgb(255, 255, 255); font-size: 17px; line-height: 17px; padding: 8px; border-radius: 0px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgba(185, 2, 2, 0.705) 0%, rgb(203, 35, 35) 50%, rgb(117, 20, 20) 100%); box-shadow: rgba(0, 0, 0, 0) -3px -7px 0px 0px; border: 2px solid rgb(255, 255, 255); display: inline-block;
+}
+    
+.onglet:hover {
+background: #1C6EA4; 
+}
+.onglet:active {
+background: #144E75; 
+}
+.GCR2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+#demoparagraph {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+    -webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+    -moz-column-rule: 1px solid rgba(28,110,164,0.5);
+    column-rule: 2px solid rgba(28,110,164,0.5);
+    } */
