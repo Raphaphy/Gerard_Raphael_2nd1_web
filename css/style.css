@@ -95,7 +95,7 @@ li a:hover,
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	gap: 0px 0px;
-	grid-template-areas: "logo . menu";
+	grid-template-areas: "logo main-title menu";
 	height: 16vh;
 	width: auto;
 	align-items: center;
@@ -108,6 +108,12 @@ li a:hover,
 
 .menu {
 	grid-area: menu;
+}
+
+.main-title {
+	grid-area: main-title;
+	color: white;
+	letter-spacing: 6px;
 }
 
 h1 {
